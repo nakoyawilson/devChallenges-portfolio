@@ -1,0 +1,64 @@
+.job-field {
+  color: var(--gray2);
+  font-weight: 700;
+  font-size: 1.125rem;
+  padding-bottom: 1rem;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.skill-heading {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--gray2);
+  white-space: nowrap;
+}
+
+/* Skill Bar */
+.skill {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  justify-content: space-between;
+}
+.skill-container {
+  width: 100%;
+  height: 9px;
+  background-color: var(--gray4);
+  border-radius: 12px;
+}
+
+.progress {
+  background-color: var(--blue);
+  border-radius: 12px;
+  height: 9px;
+}
+
+/* Horizontal Styles */
+
+.skills-card-horizontal {
+  width: min(100%, 1046px);
+  padding: 1.375rem 1.375rem 2rem;
+}
+
+.skills-grid-horizontal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  row-gap: 1rem;
+}
+
+/* Vertical Styles */
+.skills-card-vertical {
+  width: min(100%, 395px);
+  padding: 1.375rem 1.375rem 1.5rem;
+}
+
+.skills-grid-vertical {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+}

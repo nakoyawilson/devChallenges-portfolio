@@ -1,0 +1,10 @@
+.banner {
+  width: min(100%, 1046px);
+  padding: 1.375rem;
+}
+
+.banner-title {
+  color: var(--gray2);
+  font-size: 1.5rem;
+  font-weight: 500;
+}

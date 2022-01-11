@@ -29,6 +29,7 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
+- [Useful Links](#useful-links)
 - [How to use](#how-to-use)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
@@ -68,6 +69,10 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [ ] User story (optional): I can see experiences
 - [ ] User story (optional): I can see blogs
 - [ ] User story (optional): I can see projects on different pages
+
+## Useful Links
+
+- [How TO - CSS Skill Bar](https://www.w3schools.com/howto/howto_css_skill_bar.asp)
 
 ## How To Use
 
