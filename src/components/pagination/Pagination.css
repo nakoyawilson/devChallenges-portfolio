@@ -39,3 +39,7 @@
   background-color: var(--blue);
   color: var(--white);
 }
+
+.disabled {
+  pointer-events: none;
+}

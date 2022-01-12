@@ -9,7 +9,6 @@ const Pagination = (props) => {
     siblingCount = 1,
     currentPage,
     pageSize,
-    className,
   } = props;
 
   const paginationRange = usePagination({
@@ -36,7 +35,9 @@ const Pagination = (props) => {
   return (
     <ul className="pagination-container">
       <PaginationButton
-        paginationButtonClasses="pagination-item"
+        paginationButtonClasses={
+          currentPage === 1 ? "pagination-item disabled" : "pagination-item"
+        }
         clickFunction={onPrevious}
         paginationLabel={
           <svg
@@ -63,14 +64,22 @@ const Pagination = (props) => {
         }
         return (
           <PaginationButton
-            paginationButtonClasses="pagination-item"
+            paginationButtonClasses={
+              pageNumber === currentPage
+                ? "pagination-item current-page disabled"
+                : "pagination-item"
+            }
             clickFunction={() => onPageChange(pageNumber)}
             paginationLabel={pageNumber}
           />
         );
       })}
       <PaginationButton
-        paginationButtonClasses="pagination-item"
+        paginationButtonClasses={
+          currentPage === lastPage
+            ? "pagination-item disabled"
+            : "pagination-item"
+        }
         clickFunction={onNext}
         paginationLabel={
           <svg
