@@ -74,6 +74,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - [How TO - CSS Skill Bar](https://www.w3schools.com/howto/howto_css_skill_bar.asp)
 - [How to Build a Custom Pagination Component in React](https://www.freecodecamp.org/news/build-a-custom-pagination-component-in-react/)
+- [netlify deployment: Failed during stage 'building site': Build script returned non-zero exit code: 2 - Stack Overflow](https://stackoverflow.com/questions/64468843/netlify-deployment-failed-during-stage-building-site-build-script-returned-n)
 
 ## How To Use
 
