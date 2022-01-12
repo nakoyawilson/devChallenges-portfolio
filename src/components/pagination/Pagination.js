@@ -3,6 +3,7 @@ import PaginationButton from "./PaginationButton";
 import "./Pagination.css";
 
 const Pagination = (props) => {
+  let dotsKey = 0;
   const {
     onPageChange,
     totalCount,
@@ -55,10 +56,11 @@ const Pagination = (props) => {
         />
         {paginationRange.map((pageNumber) => {
           if (pageNumber === DOTS) {
+            dotsKey++;
             return (
               <PaginationButton
+                key={`dot-${dotsKey}`}
                 paginationButtonClasses="pagination-item dots disabled"
-                clickFunction=""
                 paginationLabel={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -77,6 +79,7 @@ const Pagination = (props) => {
           }
           return (
             <PaginationButton
+              key={pageNumber}
               paginationButtonClasses={
                 pageNumber === currentPage
                   ? "pagination-item current-page disabled"
