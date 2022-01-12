@@ -22,16 +22,22 @@ import {
 let maxProjects = 3;
 
 const App = () => {
-  let projectsToRender = projectsArray;
+  const [projectsToRender, setProjectsToRender] = useState(projectsArray);
 
   const handleTagClick = (event) => {
     document.querySelectorAll(".tag-button").forEach((button) => {
       button.classList.remove("button-active");
     });
     event.target.classList.add("button-active");
-    projectsToRender = projectsArray.filter((project) => {
-      return project.tags.includes(event.target.id);
-    });
+    if (event.target.id === "All") {
+      setProjectsToRender(projectsArray);
+    } else {
+      setProjectsToRender(
+        projectsArray.filter((project) => {
+          return project.tags.includes(event.target.id);
+        })
+      );
+    }
   };
 
   const [currentPage, setCurrentPage] = useState(1);
