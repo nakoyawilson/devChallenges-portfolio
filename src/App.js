@@ -46,7 +46,7 @@ const App = () => {
     const firstPageIndex = (currentPage - 1) * maxProjects;
     const lastPageIndex = firstPageIndex + maxProjects;
     return projectsToRender.slice(firstPageIndex, lastPageIndex);
-  }, [currentPage]);
+  }, [currentPage, projectsToRender]);
 
   return (
     <div className="App">
