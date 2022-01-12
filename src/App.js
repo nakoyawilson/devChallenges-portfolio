@@ -25,6 +25,10 @@ const App = () => {
   let projectsToRender = projectsArray;
 
   const handleTagClick = (event) => {
+    document.querySelectorAll(".tag-button").forEach((button) => {
+      button.classList.remove("button-active");
+    });
+    event.target.classList.add("button-active");
     projectsToRender = projectsArray.filter((project) => {
       return project.tags.includes(event.target.id);
     });

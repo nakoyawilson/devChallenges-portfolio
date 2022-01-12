@@ -16,7 +16,11 @@ const Banner = (props) => {
         clickFunction={props.clickFunction}
         key={tags.indexOf(tag)}
         buttonName={tag}
-        buttonClasses="button tag-button"
+        buttonClasses={
+          tag === "All"
+            ? "button tag-button button-active"
+            : "button tag-button"
+        }
       />
     );
   };

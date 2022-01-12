@@ -46,7 +46,8 @@
   cursor: pointer;
 }
 
-.button-active {
+.button-active,
+.button-active:hover {
   border: 1px solid var(--blue);
   background-color: var(--blue);
   color: var(--white);
