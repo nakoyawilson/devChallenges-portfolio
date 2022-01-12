@@ -73,6 +73,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Useful Links
 
 - [How TO - CSS Skill Bar](https://www.w3schools.com/howto/howto_css_skill_bar.asp)
+- [How to Build a Custom Pagination Component in React](https://www.freecodecamp.org/news/build-a-custom-pagination-component-in-react/)
 
 ## How To Use
 

@@ -1,3 +1,4 @@
+import { useState, useMemo } from "react";
 import "./App.css";
 import NameCard from "./components/name-card/NameCard";
 import ProjectCard from "./components/project-card/ProjectCard";
@@ -6,7 +7,10 @@ import BlogPostCard from "./components/blogpost-card/BlogPostCard";
 import Banner from "./components/banner/Banner";
 import HobbiesCard from "./components/hobbies-card/HobbiesCard";
 import ExperienceCard from "./components/experience-card/ExperienceCard";
+import Pagination from "./components/pagination/Pagination";
 import Footer from "./components/footer/Footer";
+
+let maxProjects = 3;
 
 const App = () => {
   const nameCardParagraphs = [
@@ -17,6 +21,158 @@ const App = () => {
   const projectsArray = [
     {
       id: 1,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 2,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 3,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 4,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 5,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 6,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 7,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 8,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 9,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 10,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 11,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 12,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 13,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 14,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 15,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 16,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 17,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 18,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 19,
+      description:
+        "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      tags: ["#HTML", "#CSS", "#responsive"],
+      demoLink: "",
+      codeLink: "",
+    },
+    {
+      id: 20,
       description:
         "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
       tags: ["#HTML", "#CSS", "#responsive"],
@@ -101,6 +257,14 @@ const App = () => {
     },
   ];
 
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const currentProjectData = useMemo(() => {
+    const firstPageIndex = (currentPage - 1) * maxProjects;
+    const lastPageIndex = firstPageIndex + maxProjects;
+    return projectsArray.slice(firstPageIndex, lastPageIndex);
+  }, [currentPage]);
+
   return (
     <div className="App">
       <div className="container">
@@ -122,12 +286,12 @@ const App = () => {
           paragraphContent={nameCardParagraphs}
           cardOrientation="vertical"
         />
-        <Banner
+        {/* <Banner
           bannerTitle="Projects"
           count={projectsArray.length}
           tags={["React", "Vue", "Responsive"]}
-        />
-        <ProjectCard
+        /> */}
+        {/* <ProjectCard
           projectTitle="Recipe Blog"
           paragraphContent={projectsArray[0].description}
           projectTags={projectsArray[0].tags}
@@ -144,7 +308,7 @@ const App = () => {
           demoLink={projectsArray[0].demoLink}
           codeLink={projectsArray[0].codeLink}
           cardOrientation="vertical"
-        />
+        /> */}
         <SkillsCard
           jobField="Front End"
           skills={skillsArray}
@@ -185,6 +349,32 @@ const App = () => {
         />
         <HobbiesCard hobbies={hobbiesArray} cardOrientation="horizontal" />
         <HobbiesCard hobbies={hobbiesArray} cardOrientation="vertical" />
+        <Banner
+          bannerTitle="Projects"
+          count={projectsArray.length}
+          tags={["React", "Vue", "Responsive"]}
+        />
+        {currentProjectData.map((item) => {
+          return (
+            <ProjectCard
+              key={item.id}
+              projectTitle="Recipe Blog"
+              paragraphContent={item.description}
+              projectTags={item.tags}
+              imageSrc="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+              demoLink={item.demoLink}
+              codeLink={item.codeLink}
+              cardOrientation="vertical"
+            />
+          );
+        })}
+        <Pagination
+          className="pagination-bar"
+          currentPage={currentPage}
+          totalCount={projectsArray.length}
+          pageSize={maxProjects}
+          onPageChange={(page) => setCurrentPage(page)}
+        />
       </div>
       <Footer />
     </div>
