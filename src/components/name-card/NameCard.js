@@ -3,7 +3,10 @@ import "./NameCard.css";
 
 const NameCard = (props) => {
   return (
-    <div className={`card name-card-${props.cardOrientation}`}>
+    <div
+      className={`card name-card-${props.cardOrientation}`}
+      id={props.cardID}
+    >
       <div className={`picture-container-${props.cardOrientation}`}>
         <img
           src={props.imageSrc}

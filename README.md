@@ -61,14 +61,14 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) was to build an application to complete the following user stories:
 
-- [ ] User story: I can see personal details
-- [ ] User story: I can see skills
-- [ ] User story: I can see projects
+- [x] User story: I can see personal details
+- [x] User story: I can see skills
+- [x] User story: I can see projects
 - [ ] User story: I can filter projects by tag
-- [ ] User story: I can see hobbies or certificates
-- [ ] User story (optional): I can see experiences
-- [ ] User story (optional): I can see blogs
-- [ ] User story (optional): I can see projects on different pages
+- [x] User story: I can see hobbies or certificates
+- [x] User story (optional): I can see experiences
+- [x] User story (optional): I can see blogs
+- [x] User story (optional): I can see projects on different pages
 
 ## Useful Links
 

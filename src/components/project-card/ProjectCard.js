@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
   const createTag = (tag) => {
     return (
       <span key={projectTags.indexOf(tag)} className="project-tag">
-        {tag}
+        #{tag}
       </span>
     );
   };

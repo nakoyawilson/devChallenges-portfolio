@@ -3,7 +3,10 @@ import "./BlogPostCard.css";
 
 const BlogPostCard = (props) => {
   return (
-    <div className={`card blog-card-${props.cardOrientation}`}>
+    <div
+      className={`card blog-card-${props.cardOrientation}`}
+      id={props.cardID}
+    >
       <div className="blog-card-title">
         <span className="card-descriptor">Blog</span>
         <h2 className="post-title">{props.postTitle}</h2>

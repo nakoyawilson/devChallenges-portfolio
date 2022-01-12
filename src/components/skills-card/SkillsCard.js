@@ -15,7 +15,10 @@ const SkillsCard = (props) => {
   };
 
   return (
-    <div className={`card skills-card-${props.cardOrientation}`}>
+    <div
+      className={`card skills-card-${props.cardOrientation}`}
+      id={props.cardID}
+    >
       <div>
         <h2 className="job-field">{props.jobField}</h2>
       </div>

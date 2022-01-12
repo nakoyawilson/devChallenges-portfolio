@@ -13,6 +13,7 @@ const Banner = (props) => {
   const createButton = (tag) => {
     return (
       <Button
+        clickFunction={props.clickFunction}
         key={tags.indexOf(tag)}
         buttonName={tag}
         buttonClasses="button tag-button"
@@ -21,7 +22,7 @@ const Banner = (props) => {
   };
 
   return (
-    <div className="card banner">
+    <div className="card banner" id={props.cardID}>
       <div>
         <h2 className="banner-title">
           {props.bannerTitle} ({props.count})

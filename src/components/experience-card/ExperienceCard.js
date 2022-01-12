@@ -17,7 +17,10 @@ const ExperienceCard = (props) => {
   };
 
   return (
-    <div className={`card experience-card-${props.cardOrientation}`}>
+    <div
+      className={`card experience-card-${props.cardOrientation}`}
+      id={props.cardID}
+    >
       <div>
         <h2 className="experience-card-title">
           {props.experienceType} Experience

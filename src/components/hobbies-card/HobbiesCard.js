@@ -16,7 +16,10 @@ const HobbiesCard = (props) => {
   };
 
   return (
-    <div className={`card hobbies-card-${props.cardOrientation}`}>
+    <div
+      className={`card hobbies-card-${props.cardOrientation}`}
+      id={props.cardID}
+    >
       <div>
         <h2 className="hobbies-title">Hobbies</h2>
       </div>
