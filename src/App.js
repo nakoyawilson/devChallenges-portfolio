@@ -139,14 +139,14 @@ const App = () => {
               />
             );
           })}
-          {/* <Pagination
+          <Pagination
             paginationID="project-pagination"
             className="pagination-bar"
             currentPage={currentPage}
             totalCount={projectsToRender.length}
             pageSize={maxProjects}
             onPageChange={(page) => setCurrentPage(page)}
-          /> */}
+          />
         </div>
       </div>
       <Footer />
