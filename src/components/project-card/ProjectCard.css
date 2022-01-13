@@ -63,6 +63,6 @@
 }
 
 .project-picture-container-vertical {
-  width: min(100%, 351px);
-  height: min(100%, 261px);
+  width: 100%;
+  height: auto;
 }

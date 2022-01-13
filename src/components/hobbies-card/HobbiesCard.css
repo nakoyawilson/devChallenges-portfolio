@@ -48,7 +48,7 @@
 
 /* Vertical Styles */
 .hobbies-card-vertical {
-  width: min(100%, 427px);
+  width: 100%;
   padding: 1.375rem;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .hobby-image-container-vertical {
-  width: min(100%, 383px);
+  width: 100%;
   max-height: 139px;
   overflow: hidden;
   border-radius: 12px;
