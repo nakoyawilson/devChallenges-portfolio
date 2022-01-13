@@ -64,7 +64,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [x] User story: I can see personal details
 - [x] User story: I can see skills
 - [x] User story: I can see projects
-- [ ] User story: I can filter projects by tag
+- [x] User story: I can filter projects by tag
 - [x] User story: I can see hobbies or certificates
 - [x] User story (optional): I can see experiences
 - [x] User story (optional): I can see blogs

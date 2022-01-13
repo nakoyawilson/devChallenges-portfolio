@@ -19,10 +19,19 @@ import {
   experienceArray,
 } from "./components/data/data.js";
 
-let maxProjects = 3;
-
 const App = () => {
   const [projectsToRender, setProjectsToRender] = useState(projectsArray);
+  const [maxProjects, setMaxProjects] = useState(
+    window.screen.width > 1250 ? 3 : 1
+  );
+
+  window.addEventListener("resize", () => {
+    if (window.screen.width < 1250) {
+      setMaxProjects(1);
+    } else {
+      setMaxProjects(3);
+    }
+  });
 
   const handleTagClick = (event) => {
     document.querySelectorAll(".tag-button").forEach((button) => {
@@ -46,7 +55,7 @@ const App = () => {
     const firstPageIndex = (currentPage - 1) * maxProjects;
     const lastPageIndex = firstPageIndex + maxProjects;
     return projectsToRender.slice(firstPageIndex, lastPageIndex);
-  }, [currentPage, projectsToRender]);
+  }, [currentPage, projectsToRender, maxProjects]);
 
   return (
     <div className="App">
