@@ -28,8 +28,10 @@ const App = () => {
   window.addEventListener("resize", () => {
     if (window.screen.width < 1250) {
       setMaxProjects(1);
+      setCurrentPage(1);
     } else {
       setMaxProjects(3);
+      setCurrentPage(1);
     }
   });
 
@@ -40,12 +42,14 @@ const App = () => {
     event.target.classList.add("button-active");
     if (event.target.id === "All") {
       setProjectsToRender(projectsArray);
+      setCurrentPage(1);
     } else {
       setProjectsToRender(
         projectsArray.filter((project) => {
           return project.tags.includes(event.target.id);
         })
       );
+      setCurrentPage(1);
     }
   };
 

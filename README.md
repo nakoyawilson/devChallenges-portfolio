@@ -76,6 +76,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [How to Build a Custom Pagination Component in React](https://www.freecodecamp.org/news/build-a-custom-pagination-component-in-react/)
 - [netlify deployment: Failed during stage 'building site': Build script returned non-zero exit code: 2 - Stack Overflow](https://stackoverflow.com/questions/64468843/netlify-deployment-failed-during-stage-building-site-build-script-returned-n)
 - [TypeError: (0 , \_react.useEffect) is not a function - Stack Overflow](https://stackoverflow.com/a/70662432) - This Stack Overflow answer was helpful for figuring out why a blank page was being rendered on Netlify while the app worked fine in development.
+- [automatically detect web browser window width change? - Stack Overflow](https://stackoverflow.com/a/41752709) - This Stack Overflow answer was helpful for figuring out how to add an event listener to window size.
 
 ## How To Use
 
