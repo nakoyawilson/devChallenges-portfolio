@@ -87,7 +87,8 @@ const App = () => {
           jobTitle="Front-end developer"
           email="billy@example.com"
           phone="(+603) 546 624 342"
-          imageSrc="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+          // imageSrc="assets/images/profile-picture.jpg"
+          imageSrc="https://images.unsplash.com/flagged/photo-1558990397-489e8f26f88c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=942&q=80"
           paragraphContent={nameCardParagraphs}
           cardOrientation={nameCardOrientation}
         />

@@ -1,7 +1,7 @@
 .profile-picture {
   width: 100%;
-  height: auto;
-  border-radius: 12px;
+  height: 100%;
+  object-fit: cover;
 }
 
 .job-title {
@@ -56,6 +56,8 @@
 .picture-container-horizontal {
   width: min(100%, 275px);
   height: min(100%, 275px);
+  overflow: hidden;
+  border-radius: 12px;
 }
 
 .name-contact-horizontal {
@@ -79,6 +81,8 @@
 .picture-container-vertical {
   width: min(100%, 350px);
   height: min(100%, 350px);
+  overflow: hidden;
+  border-radius: 12px;
 }
 
 .name-contact-vertical {

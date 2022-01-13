@@ -102,6 +102,11 @@ $ npm start
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
+- Profile Picture by [Etty Fidele](https://unsplash.com/@fideletty) on [Unsplash](https://unsplash.com/)
+- Profile Picture by [AltumCode](https://unsplash.com/@altumcode) on [Unsplash](https://unsplash.com/)
+- Gaming Picture by [Igor Karimov](https://unsplash.com/@ingvar_erik) on [Unsplash](https://unsplash.com/)
+- Cooking Picture by [Jeff Sheldon](https://unsplash.com/@ugmonk) on [Unsplash](https://unsplash.com/)
+- Biking Picture by [Dan Russo](https://unsplash.com/@danjrusso) on [Unsplash](https://unsplash.com/)
 
 ## Contact
 

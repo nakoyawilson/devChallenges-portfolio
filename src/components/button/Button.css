@@ -8,16 +8,16 @@
 }
 
 .demo-button {
-  background-color: var(--blue);
+  background-color: var(--accent-color);
   color: var(--white);
-  border: 1px solid var(--blue);
+  border: 1px solid var(--accent-color);
   width: 135px;
 }
 
 .code-button {
   background-color: var(--white);
-  color: var(--blue);
-  border: 1px solid var(--blue);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
   width: 118px;
 }
 
@@ -41,14 +41,14 @@
 }
 
 .tag-button:hover {
-  border-color: var(--blue);
-  color: var(--blue);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
   cursor: pointer;
 }
 
 .button-active,
 .button-active:hover {
-  border: 1px solid var(--blue);
-  background-color: var(--blue);
+  border: 1px solid var(--accent-color);
+  background-color: var(--accent-color);
   color: var(--white);
 }

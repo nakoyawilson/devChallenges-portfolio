@@ -26,18 +26,18 @@
 }
 
 .pagination-item:hover {
-  color: var(--blue);
-  border: 1px solid var(--blue);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
   cursor: pointer;
 }
 
 .pagination-item:hover .pagination-icon {
-  fill: var(--blue);
+  fill: var(--accent-color);
 }
 
 .current-page {
-  border: 1px solid var(--blue);
-  background-color: var(--blue);
+  border: 1px solid var(--accent-color);
+  background-color: var(--accent-color);
   color: var(--white);
 }
 

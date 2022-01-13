@@ -69,6 +69,14 @@
   width: min(100%, 388px);
 }
 
+#cooking-picture {
+  object-position: 0 -175px;
+}
+
+#biking-picture {
+  object-position: 0 -210px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 1250px) {
   .App {
