@@ -1,7 +1,4 @@
 .App {
-  /* width: min(100%, 1440px);
-  margin-inline: auto; */
-  /* padding: 4.5rem 12rem 1.5rem; */
   padding: 4.5rem 0 1.5rem;
 }
 
@@ -117,9 +114,13 @@
     grid-row: 5 / 6;
   }
 
+  #work-experience-card .experience-grid-vertical .experience-container {
+    gap: 0.5rem;
+  }
+
   #projects {
     grid-column: 1 / 2;
-    grid-row: 7 / 8;
+    grid-row: 6 / 7;
     grid-template-columns: 1fr;
   }
 
