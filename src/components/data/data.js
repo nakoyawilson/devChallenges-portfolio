@@ -7,191 +7,119 @@ export const projectsArray = [
   {
     id: 1,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "Responsive"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 2,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "React"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 3,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "Responsive"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 4,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "Vue"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 5,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "Responsive"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 6,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "React"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 7,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "React"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 8,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "React"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 9,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "Vue"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 10,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "Responsive"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 11,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "Responsive"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 12,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "Responsive"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 13,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "React"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 14,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
+    tags: ["HTML", "CSS", "Vue"],
     demoLink: "",
     codeLink: "",
   },
   {
     id: 15,
     description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
-    demoLink: "",
-    codeLink: "",
-  },
-  {
-    id: 16,
-    description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
-    demoLink: "",
-    codeLink: "",
-  },
-  {
-    id: 17,
-    description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
-    demoLink: "",
-    codeLink: "",
-  },
-  {
-    id: 18,
-    description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
-    demoLink: "",
-    codeLink: "",
-  },
-  {
-    id: 19,
-    description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "responsive"],
-    demoLink: "",
-    codeLink: "",
-  },
-  {
-    id: 20,
-    description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "React"],
-    demoLink: "",
-    codeLink: "",
-  },
-  {
-    id: 21,
-    description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "React"],
-    demoLink: "",
-    codeLink: "",
-  },
-  {
-    id: 22,
-    description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "React"],
-    demoLink: "",
-    codeLink: "",
-  },
-  {
-    id: 23,
-    description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
-    tags: ["HTML", "CSS", "React"],
-    demoLink: "",
-    codeLink: "",
-  },
-  {
-    id: 24,
-    description:
-      "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ",
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io.",
     tags: ["HTML", "CSS", "React"],
     demoLink: "",
     codeLink: "",
@@ -211,8 +139,10 @@ export const blogArray = [
   {
     id: 1,
     title: "How to organize your CSS",
-    description:
-      "In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
+    description: [
+      "In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.",
+      "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
+    ],
     image:
       "https://images.unsplash.com/photo-1533906966484-a9c978a3f090?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
     platform: "dev.to",
@@ -220,7 +150,7 @@ export const blogArray = [
   },
 ];
 
-export const tagsArray = ["All", "Vue", "React", "Angular"];
+export const tagsArray = ["All", "React", "Vue", "Responsive"];
 
 export const hobbiesArray = [
   {
