@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <p className="attribution">
-        created by
+        created by&nbsp;
         <a
           href="https://devchallenges.io/portfolio/nakoyawilson"
           target="_blank"
