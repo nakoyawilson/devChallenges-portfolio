@@ -24,19 +24,9 @@ const App = () => {
   const [maxProjects, setMaxProjects] = useState(
     window.screen.width > 1250 ? 3 : 1
   );
-  const [nameCardOrientation, setNameCardOrientation] = useState("horizontal");
-
-  // window.addEventListener("resize", () => {
-  //   if (window.screen.width < 1250) {
-  //     setMaxProjects(1);
-  //     setCurrentPage(1);
-  //     setNameCardOrientation("vertical");
-  //   } else {
-  //     setMaxProjects(3);
-  //     setCurrentPage(1);
-  //     setNameCardOrientation("horizontal");
-  //   }
-  // });
+  const [nameCardOrientation, setNameCardOrientation] = useState(
+    window.screen.width > 1250 ? "horizontal" : "vertical"
+  );
 
   const handleTagClick = (event) => {
     document.querySelectorAll(".tag-button").forEach((button) => {
