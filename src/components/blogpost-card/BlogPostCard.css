@@ -58,7 +58,7 @@
 }
 
 .post-image-container-horizontal {
-  width: 498px;
+  width: min(100%, 498px);
   height: 380px;
   overflow: hidden;
   border-radius: 12px 0 0 12px;
@@ -66,7 +66,7 @@
 
 /* Vertical Styles */
 .blog-card-vertical {
-  width: min(100%, 536px);
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
@@ -75,8 +75,8 @@
 }
 
 .post-image-container-vertical {
-  width: 299px;
-  height: 321px;
+  width: min(100%, 299px);
+  height: auto;
   overflow: hidden;
   border-radius: 12px 0 0 12px;
 }

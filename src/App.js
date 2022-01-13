@@ -87,8 +87,7 @@ const App = () => {
           jobTitle="Front-end developer"
           email="billy@example.com"
           phone="(+603) 546 624 342"
-          // imageSrc="assets/images/profile-picture.jpg"
-          imageSrc="https://images.unsplash.com/flagged/photo-1558990397-489e8f26f88c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=942&q=80"
+          imageSrc="assets/images/profile-picture.jpg"
           paragraphContent={nameCardParagraphs}
           cardOrientation={nameCardOrientation}
         />
@@ -140,14 +139,14 @@ const App = () => {
               />
             );
           })}
-          <Pagination
+          {/* <Pagination
             paginationID="project-pagination"
             className="pagination-bar"
             currentPage={currentPage}
             totalCount={projectsToRender.length}
             pageSize={maxProjects}
             onPageChange={(page) => setCurrentPage(page)}
-          />
+          /> */}
         </div>
       </div>
       <Footer />

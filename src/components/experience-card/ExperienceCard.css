@@ -52,7 +52,7 @@
 
 /* Vertical Styles */
 .experience-card-vertical {
-  width: min(100%, 417px);
+  width: 100%;
   padding: 1.375rem;
 }
 

@@ -172,6 +172,7 @@ export const blogArray = [
     description: [
       "In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.",
       "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
+      "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
     ],
     image: "/assets/images/blog-picture.jpg",
     platform: "dev.to",
@@ -186,9 +187,7 @@ export const hobbiesArray = [
     id: 1,
     hobby: "Gaming",
     description: "Quisque feugiat malesuada molestie.",
-    // image: "/assets/images/gaming.jpg",
-    image:
-      "https://images.unsplash.com/photo-1627855437629-62b298df7542?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1282&q=80",
+    image: "/assets/images/gaming.jpg",
   },
   {
     id: 2,

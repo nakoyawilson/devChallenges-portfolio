@@ -103,7 +103,7 @@ $ npm start
 - [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 - Profile Picture by [Etty Fidele](https://unsplash.com/@fideletty) on [Unsplash](https://unsplash.com/)
-- Profile Picture by [AltumCode](https://unsplash.com/@altumcode) on [Unsplash](https://unsplash.com/)
+- Blog Picture by [Christopher Gower](https://unsplash.com/@cgower) on [Unsplash](https://unsplash.com/)
 - Gaming Picture by [Branden Skeli](https://unsplash.com/@branden_skeli) on [Unsplash](https://unsplash.com/)
 - Cooking Picture by [Jeff Sheldon](https://unsplash.com/@ugmonk) on [Unsplash](https://unsplash.com/)
 - Biking Picture by [Dan Russo](https://unsplash.com/@danjrusso) on [Unsplash](https://unsplash.com/)
