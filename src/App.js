@@ -21,12 +21,18 @@ import {
 
 const App = () => {
   const [projectsToRender, setProjectsToRender] = useState(projectsArray);
-  const [maxProjects, setMaxProjects] = useState(
-    window.screen.width > 1250 ? 3 : 1
-  );
+
+  const initialNumProjects = window.screen.innerWidth > 1250 ? 3 : 1;
+  const [maxProjects, setMaxProjects] = useState(initialNumProjects);
+
+  const initialCardOrientation =
+    window.screen.innerWidth > 1250 ? "horizontal" : "vertical";
   const [nameCardOrientation, setNameCardOrientation] = useState(
-    window.screen.width > 1250 ? "horizontal" : "vertical"
+    initialCardOrientation
   );
+
+  console.log(initialNumProjects);
+  console.log(initialCardOrientation);
 
   const handleTagClick = (event) => {
     document.querySelectorAll(".tag-button").forEach((button) => {
@@ -56,7 +62,7 @@ const App = () => {
 
   useEffect(() => {
     window.addEventListener("resize", () => {
-      if (window.screen.width < 1250) {
+      if (window.screen.innerWidth < 1250) {
         setMaxProjects(1);
         setCurrentPage(1);
         setNameCardOrientation("vertical");
