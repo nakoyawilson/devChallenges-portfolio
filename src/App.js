@@ -31,10 +31,6 @@ const App = () => {
     initialCardOrientation
   );
 
-  console.log(initialNumProjects);
-  console.log(initialCardOrientation);
-  console.log(window.innerWidth);
-
   const handleTagClick = (event) => {
     document.querySelectorAll(".tag-button").forEach((button) => {
       button.classList.remove("button-active");
