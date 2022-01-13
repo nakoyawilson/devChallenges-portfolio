@@ -4,6 +4,10 @@
   object-fit: cover;
 }
 
+.profile-details {
+  width: 100%;
+}
+
 .job-title {
   color: var(--gray3);
   font-size: 1.125rem;

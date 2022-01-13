@@ -85,7 +85,7 @@
 
   .container {
     grid-template-columns: 1fr;
-    width: min(100%, 540px);
+    width: min(93%, 350px);
     margin-inline: auto;
   }
 
@@ -132,6 +132,7 @@
 
   #project-pagination {
     grid-column: span 1;
+    width: auto;
   }
 
   /* .pagination-container {
