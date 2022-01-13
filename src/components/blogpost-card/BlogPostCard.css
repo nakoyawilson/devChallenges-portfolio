@@ -18,11 +18,18 @@
 .post-description {
   font-size: 1rem;
   width: min(100%, 465px);
+  margin-bottom: 1.25rem;
 }
 
 .post-link {
   color: var(--blue);
   text-decoration: none;
+}
+
+.blog-card-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Horizontal Styles */

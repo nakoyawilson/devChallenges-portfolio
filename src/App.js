@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import "./App.css";
 import NameCard from "./components/name-card/NameCard";
 import ProjectCard from "./components/project-card/ProjectCard";
@@ -24,16 +24,19 @@ const App = () => {
   const [maxProjects, setMaxProjects] = useState(
     window.screen.width > 1250 ? 3 : 1
   );
+  const [nameCardOrientation, setNameCardOrientation] = useState("horizontal");
 
-  window.addEventListener("resize", () => {
-    if (window.screen.width < 1250) {
-      setMaxProjects(1);
-      setCurrentPage(1);
-    } else {
-      setMaxProjects(3);
-      setCurrentPage(1);
-    }
-  });
+  // window.addEventListener("resize", () => {
+  //   if (window.screen.width < 1250) {
+  //     setMaxProjects(1);
+  //     setCurrentPage(1);
+  //     setNameCardOrientation("vertical");
+  //   } else {
+  //     setMaxProjects(3);
+  //     setCurrentPage(1);
+  //     setNameCardOrientation("horizontal");
+  //   }
+  // });
 
   const handleTagClick = (event) => {
     document.querySelectorAll(".tag-button").forEach((button) => {
@@ -61,6 +64,20 @@ const App = () => {
     return projectsToRender.slice(firstPageIndex, lastPageIndex);
   }, [currentPage, projectsToRender, maxProjects]);
 
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      if (window.screen.width < 1250) {
+        setMaxProjects(1);
+        setCurrentPage(1);
+        setNameCardOrientation("vertical");
+      } else {
+        setMaxProjects(3);
+        setCurrentPage(1);
+        setNameCardOrientation("horizontal");
+      }
+    });
+  }, [maxProjects, currentPage, nameCardOrientation]);
+
   return (
     <div className="App">
       <div className="container">
@@ -72,7 +89,7 @@ const App = () => {
           phone="(+603) 546 624 342"
           imageSrc="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
           paragraphContent={nameCardParagraphs}
-          cardOrientation="horizontal"
+          cardOrientation={nameCardOrientation}
         />
         <SkillsCard
           cardID="skill-card"

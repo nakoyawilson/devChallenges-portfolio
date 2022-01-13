@@ -52,3 +52,10 @@
 .dots {
   border: none;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1250px) {
+  .pagination-container {
+    justify-content: center;
+  }
+}
